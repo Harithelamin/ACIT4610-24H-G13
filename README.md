@@ -26,4 +26,15 @@ After calculating the monthly returns for all tickers, the code drops any rows c
  Is to 
 
 # Task 4
- Is to 
+Taxi-v3 RL DQN, suitable small discrete state/action space.
+
+## Spaces
+Taxi location, passenger location, destination. Episode ends on passenger droped-off or time_limit.
+Length of each episode is 200. Actions: pick-up, drop-off; movement north, south, east and west.
+
+Transition probability, p, action_mask. Reward on correct drop-off. Penalty on delays and wrong actions.
+-1 per step unless a reward.
+-10 on bad “pickup” or “drop-off”.
++20 delivering the passenger.
+
+
