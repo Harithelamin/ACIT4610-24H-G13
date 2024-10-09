@@ -28,7 +28,6 @@ After calculating the monthly returns for all tickers, the code drops any rows c
 # Task 4
 Taxi-v3 RL DQN, suitable small discrete state/action space.
 
-## Spaces
 Taxi location, passenger location, destination. Episode ends on passenger droped-off or time_limit.
 Length of each episode is 200. Actions: pick-up, drop-off; movement north, south, east and west.
 
