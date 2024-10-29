@@ -17,6 +17,8 @@ python libraries: gym numpy tensorflow keras openAi Matplotlib requests pandas g
 
 
 # Task 2
+To find the code, you have to navigate to the folder task-2, and inside that one locate stock.py. The file task-2 in the main folder is empty and the task-2 file in the task-2 folder is obsolete, so navigate to stock.py
+
 This Python code snippet uses the yfinance library to download historical stock price data and compute the monthly returns for a list of specified stock tickers. It begins by importing the necessary libraries: yfinance for financial data retrieval and pandas for data manipulation. A list of stock tickers is defined, representing major technology and consumer companies. The code also establishes a date range for downloading the historical stock data, spanning from January 1, 2020, to January 1, 2023. This setup prepares the environment to analyze the stock performance over a defined period.
 
 The main functionality is encapsulated in a loop that iterates over each stock ticker in the list. Within the loop, the yf.download() function fetches the historical daily stock prices from Yahoo Finance. The daily stock prices are then resampled to calculate monthly returns, which are computed by using the percentage change of the adjusted closing prices. The monthly returns are stored in a new DataFrame, which is constructed iteratively. If the monthly_returns_combined DataFrame is empty, it initializes it with the returns of the first ticker. For subsequent tickers, it joins their monthly returns to the existing DataFrame, ensuring that all stock returns are consolidated into a single DataFrame for further analysis.
