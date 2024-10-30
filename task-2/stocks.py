@@ -1,3 +1,4 @@
+#python -m pip install -U --force-reinstall yfinance 
 import yfinance as yf
 import pandas as pd
 
