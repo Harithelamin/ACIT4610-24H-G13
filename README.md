@@ -18,14 +18,18 @@ This project aims to implement, and study the application of algorithms/techniqu
 
 # The project contain many tasks.
 
-# Task 1
+# Task 1. Traffic Management Optimization Using Multi-Objective Evolutionary Algorithms.
+
  Is to apply a Multi-Objective Evolutionary Algorithm (MOEA) to optimize traffic management strategies for selected New York City (NYC) areas. The goal is to minimize conflicting objectives, Total Travel Time (TTT) and Fuel Consumption (FC), using real-world traffic data from NYC Open Data.
 
 # Data source: 
-NYC Open Data
+1. NYC Traffic Volume Counts (2014-2022): NYC Open Data - Traffic Volume
+(https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts/btm5-
+ppia/about_data)
 
-https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts/btm5-ppia/data_preview
-python libraries: gym numpy tensorflow keras openAi Matplotlib requests pandas gym deap
+2. Traffic Speed Data: NYC Open Data - Traffic Speed
+(https://data.cityofnewyork.us/Transportation/DOT-Traffic-Speeds-NBE/i4gi-
+tjb9/about_data)
 
 # Task 2
 To find the code, you have to navigate to the folder task-2, and inside that one locate stock.py. The file task-2 in the main folder is empty and the task-2 file in the task-2 folder is obsolete, so navigate to stock.py
