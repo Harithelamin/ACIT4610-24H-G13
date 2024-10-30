@@ -1,6 +1,21 @@
 # ACIT4610-24H-G13
 ACIT4610-G13
 
+# Introduction
+This project aims to implement, and study the application of algorithms/techniques for evolutionary AI.
+
+# Project Environment
+1. Python 3
+2. OpenAI
+3. Gym for the environment
+4. Deep to use Genetic Programming, and implement an evolutionary algorithms.
+5. NumPy for numerical computations.
+6. Pandas for data manipulation and analysis.
+7. Requests for the process of sending and receiving data from websites.
+8. Matplotlib for plotting results.
+9. TensorFlow/PyTorch for more advanced RL algorithms like DQN.
+10.Pymoo for for multi-objective optimization algorithms.
+
 # The project contain many tasks.
 
 # Task 1
@@ -11,10 +26,6 @@ NYC Open Data
 
 https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts/btm5-ppia/data_preview
 python libraries: gym numpy tensorflow keras openAi Matplotlib requests pandas gym deap
-
-# 
-
-
 
 # Task 2
 To find the code, you have to navigate to the folder task-2, and inside that one locate stock.py. The file task-2 in the main folder is empty and the task-2 file in the task-2 folder is obsolete, so navigate to stock.py
