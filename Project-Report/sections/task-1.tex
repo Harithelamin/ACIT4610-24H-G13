@@ -1,11 +1,27 @@
-Will focus on optimizing traffic management for the three to five road segments in New 
-York City. For example: 
+In this task, we have applyed a Multi-Objective Evolutionary Algorithm (MOEA) to optimize traffic management
+strategies for selected New York City (NYC) areas, in order to  minimize conflicting
+objectives, Total Travel Time (TTT) and Fuel Consumption (FC), using real-world traffic data
+from NYC Open Data. The traffic management strategy has involved controlling traffic signal timings (green, yellow, and 
+red light durations), and setting speed limits on these segments. We have developed an MOEA that optimized these parameters to achieve the best trade-off 
+between minimizing TTT and FC.
+
+First, in order to run this project, we have installed the important python tools, and libraries, such as Python 3, 
+, OpenAI Gym for the environment, Deep to use Genetic Programming, implement an evolutionary algorithms,
+NumPy for numerical computations, Pandas for data manipulation and analysis
+, Requests for the process of sending and receiving data from websites,
+Matplotlib for plotting results, TensorFlow/PyTorch for more advanced RL algorithms like DQN,
+and pymoo for for multi-objective optimization algorithms.
+
+Second, we hvae used two datasets from the NYC Open Data portal,
+1. NYC Traffic Volume Counts
+2. Traffic Speed Data
+We have focused on optimizing traffic management for the three road segments in New 
+York City;  
 1. 5th Ave between 42nd St and 47th St (Manhattan) 
 2. Atlantic Ave between Flatbush Ave and Bedford Ave (Brooklyn) 
 3. Queens Blvd between Union Tpke and Yellowstone Blvd (Queens) 
-4. Grand Concourse between E 161st St and E 170th St (Bronx) 
-5. Victory Blvd between Richmond Ave and Clove Rd (Staten Island) 
-The traffic management strategy involves controlling traffic signal timings (green, yellow, and 
-red light durations) and setting speed limits on these segments. Your task is to develop an 
-MOEA (discussed in lectures) that optimizes these parameters to achieve the best trade-off 
-between minimizing TTT and FC.
+
+
+
+
+
