@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1730750700.48839 "main.bcf" "main.bbl" "main" 1730750749.02298 0
-  "main.bcf" 1730750748 108632 9cb38fff2ed13f80e2f9ff0440b69f4e "pdflatex"
+["biber main"] 1730750700.48839 "main.bcf" "main.bbl" "main" 1730751537.75102 0
+  "main.bcf" 1730751537 108632 9cb38fff2ed13f80e2f9ff0440b69f4e "pdflatex"
   "references.bib" 1730746685 320 dd711c83f967158645f64e1eb595b26e ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1730750747.4714 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1730750749.0238 0
+["pdflatex"] 1730751536.04206 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1730751537.75192 0
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1730746211 82347 0a47e4f8d01f5d55a2e12fd68cc2a137 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730724021 11986008 0a4ee49a35ac8f83aec26bc56f6e903f ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -106,13 +106,15 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" 1730747362 1044 000458b539869bfae8d1ae0b92e0c870 ""
+  "figures/Best_score.PNG" 1730751387 42130 e36c54f68e317042d313be837ca5400c ""
+  "figures/TTT.PNG" 1730751349 45289 1848b2e8357e65d70978fb35f894fe9f ""
   "figures/peak_huours.PNG" 1730746438 37503 c4589e8c1479c05327e325ab053d60b9 ""
-  "main.aux" 1730750748 1334 788693183c8c1bd85e614907fa6bcaca "pdflatex"
+  "main.aux" 1730751537 2269 b80cfbec68b12455565557e76e4a8365 "pdflatex"
   "main.bbl" 1730750703 1707 db6cf6e1999014dff55a479a95104667 "biber main"
-  "main.out" 1730750748 945 6382c485d3578dda35895aa287958e50 "pdflatex"
-  "main.run.xml" 1730750748 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.out" 1730751537 1700 a47730a9aec3f8e5d1ca1e002506d55f "pdflatex"
+  "main.run.xml" 1730751537 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
   "main.tex" 1730747362 1044 000458b539869bfae8d1ae0b92e0c870 ""
-  "sections/task-1.tex" 1730750745 1526 2ae9c7897a87a8290d04ef7cc390d00a ""
+  "sections/task-1.tex" 1730751533 2079 6985639c2c9ba421ed1dc823917a8959 ""
   "sections/task-2.tex" 1730747055 132 b24aa0ec77e0f9ba7bf9269d542d5637 ""
   "sections/task-4.tex" 1730747060 132 460bf9ce9c226485a6929f4d397010c9 ""
   (generated)
