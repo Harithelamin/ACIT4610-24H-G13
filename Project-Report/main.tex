@@ -1,19 +1,40 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage[backend=biber,style=numeric]{biblatex}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{fontawesome}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-\title{Evolutionary artificial intelligence and robotics}
-\author{Thomas, M khan, Harith}
-\date{October 2024}
+% Add bibliography resources
+\addbibresource{references.bib}
 
 \begin{document}
 
-\maketitle
+\title{Evolutionary artificial intelligence and robotics}
+\author{Thomas Nygaard, khan Mohammed, Harith Elamin}
+\date{November 2024}
 
-\include{sections/abstract}
-\include{sections/introduction}
-\include{sections/task-1}
-\include{sections/task-2}
-\include{sections/task-3}
-\include{sections/reference}
+\maketitle
+\begin{abstract}
+      Evolutionary artificial intelligence used to solve search and optimization problems, based on genetic processes of biological organisms. In this report, we have focused in some important algorithms to solve some real problems.  
+\end{abstract}
+
+\section{GitHub Repository}
+\faGithub{}
+\hyperlink{target name}{https://github.com/Harithelamin/ACIT4610-24H-G13}
+
+% Include the introduction
+\input{sections/task-1}
+
+\section{Task-2}
+% Include the results
+\input{sections/task-2}
+
+\section{Task-4}
+% Include the results
+\input{sections/task-4}
+
+\printbibliography
 
 \end{document}
