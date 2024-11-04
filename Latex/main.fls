@@ -202,8 +202,6 @@ INPUT .\sections\task-1.tex
 INPUT .\sections\task-1.tex
 INPUT sections\task-1.tex
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT .\figures\peak_huours.PNG
 INPUT .\figures\peak_huours.PNG
 INPUT .\figures\peak_huours.PNG
@@ -221,6 +219,8 @@ INPUT .\sections\task-4.tex
 INPUT .\sections\task-4.tex
 INPUT .\sections\task-4.tex
 INPUT sections\task-4.tex
+INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT C:\Users\Lenovo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT main.aux
 INPUT .\main.out
