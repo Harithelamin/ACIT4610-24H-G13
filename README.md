@@ -52,6 +52,9 @@ implement both ACO and PSO to solve the Vehicle Routing Problem with Time Window
 1. Solomon Benchmark website.  the C101.txt dataset.
 (http://web.cba.neu.edu/~msolomon/c101.htm)
 
+# Results
+![alt text](image.png)
+
 # Task 4
 Taxi-v3 RL DQN, suitable small discrete state/action space.
 
