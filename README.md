@@ -53,16 +53,12 @@ implement both ACO and PSO to solve the Vehicle Routing Problem with Time Window
 (http://web.cba.neu.edu/~msolomon/c101.htm)
 
 # Results
+
 ![alt text](Latex/figures/Citye_Routes_And_Time_Windows.PNG)
 
-![alt text](Latex/figures/ACO_Average_Distance_Travel_Over_Time.PNG)
-![alt text](Latex/figures/ACO_Convergence_Polt.PNG)
-![alt text](Latex/figures/ACO_Penalty_Violations_Over_Time.PNG)
+![alt text](Latex/figures/Aco_Results.PNG)
 
-![alt text](Latex/figures/PSO_Best_Fitnes_Value_Over_Iterations.PNG)
-![alt text](Latex/figures/PSO_Best_Solutio.PNG)
-![alt text](Latex/figures/PSO_Penalites_Over_Iterations.PNG)
-![alt text](Latex/figures/PSO_Total_Distance_Over_Iterations.PNG)
+![alt text](Latex/figures/Pso_Results.PNG)
 
 
 # Task 4
