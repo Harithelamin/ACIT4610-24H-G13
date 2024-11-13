@@ -40,7 +40,12 @@ task-2\task-2.py(obsolete):
  The main functionality is encapsulated in a loop that iterates over each stock ticker in the list. Within the loop, the yf.download() function fetches the historical daily stock prices from Yahoo Finance. The daily stock prices are then resampled to calculate monthly returns, which are computed by using the percentage change of the adjusted closing prices. The monthly returns are stored in a new DataFrame, which is constructed iteratively. If the monthly_returns_combined DataFrame is empty, it initializes it with the returns of the first ticker. For subsequent tickers, it joins their monthly returns to the existing DataFrame, ensuring that all stock returns are consolidated into a single DataFrame for further analysis.
  After calculating the monthly returns for all tickers, the code drops any rows containing missing values that might have resulted from stocks that did not have data for certain months. It then computes the covariance matrix of the monthly returns using the cov() method from pandas, which reveals the relationship between the returns of the different stocks. Finally, the covariance matrix is printed to the console, providing insights into how the stock returns move in relation to each other, which is particularly useful for portfolio optimization and risk assessment in financial analyses.
 # Task 3
- Is to 
+ This task focuses on optimizing the delivery routes for a fleet of vehicles using two nature
+inspired optimization algorithms: Ant Colony Optimization (ACO) and Particle Swarm 
+Optimization (PSO). The objective is to find the most efficient routes for a set of vehicles, 
+ensuring that all customers receive their deliveries within specified time windows. You will 
+implement both ACO and PSO to solve the Vehicle Routing Problem with Time Windows 
+(VRPTW) and compare the effectiveness of these algorithms.
 
 # Task 4
 Taxi-v3 RL DQN, suitable small discrete state/action space.
