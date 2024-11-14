@@ -1,36 +1,44 @@
 \documentclass{article}
+\usepackage[utf8x]{inputenc} 
+\usepackage{unicode-math}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{textcomp}
 \usepackage[backend=biber,style=numeric]{biblatex}
 % Useful packages
 \usepackage{amsmath}
+\usepackage{listings}
 \usepackage{graphicx}
 \usepackage{fontawesome}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
 % Add bibliography resources
 \addbibresource{references.bib}
-
-
-
 \begin{document}
 
 \title{Evolutionary artificial intelligence and robotics}
-\author{Thomas Nygaard, khan Mohammed, Harith Elamin}
+\author{Harith Elamin, Thomas Nygaard}
 \date{November 2024}
+
 
 \maketitle
 \begin{abstract}
-      Evolutionary artificial intelligence used to solve search and optimization problems, based on genetic processes of biological organisms. In this report, we have focused in some important algorithms to solve some real problems.  
+      Evolutionary AI is used to solve research and optimization problems, based on the genetic processes of biological organisms. In this report, we explore the implementation and application of algorithms and techniques derived from evolutionary AI and robotics. However, we have focused on some important algorithms for solving some real-world problems. The report provides a detailed analysis of the results, offering clear insights into the optimization outcomes achieved through evolutionary technologies.
 \end{abstract}
+\section*{Code Availability}
 
-\subsection{GitHub Repository}
+The code used in this study is publicly available on GitHub at the following URL: 
 \faGithub{}
-\hyperlink{target name}{https://github.com/Harithelamin/ACIT4610-24H-G13}
+\url{https://github.com/Harithelamin/ACIT4610-24H-G13}.
 
 % Include the introduction
 \input{sections/task-1}
 
 % Include the results
 \input{sections/task-2}
+
+% Include the results
+\input{sections/task-3}
 
 % Include the results
 \input{sections/task-4}

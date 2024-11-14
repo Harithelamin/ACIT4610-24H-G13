@@ -31,6 +31,14 @@ ppia/about_data)
 (https://data.cityofnewyork.us/Transportation/DOT-Traffic-Speeds-NBE/i4gi-
 tjb9/about_data)
 
+# Results
+
+![alt text](Latex/figures/Fuel_consumption_per_time_interval.PNG)
+![alt text](Latex/figures/Optimizing_light_duration.PNG)
+![alt text](Latex/figures/TTT,%20and%20FC.PNG)
+![alt text](Latex/figures/Pareto_Front_For_TTT_And_FC.PNG)
+![alt text](Latex/figures/Best_Score_Over_Generation.PNG)
+
 # Task 2
 To find the code, you have to navigate to the folder task-2, and inside that one locate stock.py. The file task-2 in the main folder is empty and the task-2 file in the task-2 folder is obsolete, so navigate to stock.py
 
