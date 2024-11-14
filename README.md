@@ -69,6 +69,15 @@ implement both ACO and PSO to solve the Vehicle Routing Problem with Time Window
 
 ![alt text](Latex/figures/Pso_Results.PNG)
 
+In adithon, the best distance achieved by ACO is 65,254.61, while the best distance achieved by PSO is 525.22. This indicates that the ACO algorithm has a higher value for the distance metric.
+
+Moreover, The best solution (path) obtained by the ACO algorithm is:
+[21, 16, 22, 14, 24, 17, 1, 13, 11, 0, 18, 6, 19, 23, 4, 20, 10, 15, 5, 12, 7, 9, 8, 2, 3].
+
+On the other hand, the best solution (path) obtained by the PSO algorithm is:
+[17, 0, 16, 20, 15, 3, 12, 2, 19, 22, 1, 24, 9, 18, 8, 13, 4, 7, 11, 21, 23, 5, 10, 6, 14].
+
+Overall, both ACO and PSO provide valid solutions, but they may represent different trade-offs in optimization based on their respective mechanisms.
 
 # Task 4
 Taxi-v3 RL DQN, suitable small discrete state/action space.
