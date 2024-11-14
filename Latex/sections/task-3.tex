@@ -147,9 +147,55 @@ The total penalty is the sum of the individual penalties for each customer:
     \item Number of Iterations: \( \text{num\_iterations} = 100 \)
 \end{itemize}
 \subsection{Implement Ant Colony Optimization (ACO) for VRPTW:}
-xxx
+We implemented an Ant Colony Optimization (ACO) algorithm to solve a variant of the Vehicle Routing Problem (VRP) with time windows.
+The implementation has been completed in a few steps[18]:
+\newline 1. Initialization: Pheromones are initialized on all values as defined above.
+\newline 2. Solution Construction: Each ant constructs a solution based on pheromone levels and heuristic information.
+\newline 3. Fitness Evaluation: Each solution is evaluated, and a fitness value (cost or travel time) is computed.
+\newline 4. Pheromone Update: is the key feature of ACO. Pheromone update formula defined as follows:
+\newline
+\begin{equation}
+\tau_{ij}(t+1) = (1 - \rho) \cdot \tau_{ij}(t) + \Delta \tau_{ij}
+\end{equation}
+where:
+\begin{itemize}
+    \item \(\tau_{ij}(t)\) is the pheromone level on edge \(ij\) at time \(t\),
+    \item \(\rho\) is the evaporation rate,
+    \item \(\Delta \tau_{ij}\) is the pheromone deposited by ants after each iteration.
+\end{itemize}
+
+The pheromone update rule consists of two main parts.
+\newline 5. Iteration: The process repeats for several iterations, improving the solutions over time.
 \subsection{Implement Particle Swarm Optimization (PSO) for VRPTW:}
-xxxx
+We implemented Particle Swarm Optimization (PSO) algorithm to solve a variant of the Vehicle Routing Problem (VRP) with time windows.
+The implementation has been completed in a few steps[18]:
+\newline 1. Initialize a population of particles, each with a random position and velocity in the search space. 
+\newline 2. Fitness Evaluation: Evaluate the fitness of each particle using a fitness function, which determines the quality of the solution.
+\newline 3. Update Personal Best: If the current position of a particle is better than its previous best position, update it with the current position.
+\newline 4. Velocity Update: Update the velocity of each particle using the formula[19]:
+\newline
+\begin{equation}
+v_i^{t+1} = w \cdot v_i^t + c_1 \cdot r_1 \cdot (pbest_i - x_i^t) + c_2 \cdot r_2 \cdot (gbest - x_i^t)
+\end{equation}
+Where:
+
+\begin{itemize}
+    \item \( v_i^{t+1} \): The updated velocity of particle \(i\) at time \(t+1\).
+    \item \( v_i^t \): The current velocity of particle \(i\) at time \(t\).
+    \item \( x_i^t \): The current position of particle \(i\) at time \(t\).
+    \item \( pbest_i \): The personal best position of particle \(i\) (i.e., the best position found by particle \(i\) so far).
+    \item \( gbest \): The global best position found by any particle in the swarm.
+    \item \( c_1, c_2 \): The acceleration constants (also known as the \textit{cognitive} and \textit{social} coefficients), which control the influence of the particle's own best experience and the swarm's global experience, respectively.
+    \item \( r_1, r_2 \): Random numbers between 0 and 1 that introduce stochasticity into the update, helping to explore the solution space more thoroughly.
+    \item \( w \): The \textit{inertia weight}, which controls the balance between \textit{exploration} (searching new areas) and \textit{exploitation} (refining the best-known solutions). A higher \(w\) favors exploration, while a lower \(w\) favors exploitation.
+\end{itemize}
+5. Position Update: Update the position of each particle using the formula:
+\newline
+\begin{equation}
+x_i^{t+1} = x_i^t + v_i^{t+1}
+\end{equation}
+6. Termination: Repeat steps 2 to 6 until a stopping condition is met.
+
 \subsubsection{Results}
 
 \begin{figure}[H]  % The 'H' forces LaTeX to place the figure here
@@ -165,6 +211,17 @@ xxxx
     \caption{PSO Algorithm Analysis}
     \label{fig:PSO_Analysis}
 \end{figure}
+As seen in the previous statistics, the running time for ACO optimization was 0.0160 seconds, while the running time for PSO optimization was 0.0209 seconds. This indicates that ACO is faster than PSO. 
+\newline
+In adithon, the best distance achieved by ACO is 65,254.61, while the best distance achieved by PSO is 525.22. This indicates that the ACO algorithm has a higher value for the distance metric.
+
+Moreover, The best solution (path) obtained by the ACO algorithm is:
+[21, 16, 22, 14, 24, 17, 1, 13, 11, 0, 18, 6, 19, 23, 4, 20, 10, 15, 5, 12, 7, 9, 8, 2, 3].
+
+On the other hand, the best solution (path) obtained by the PSO algorithm is:
+[17, 0, 16, 20, 15, 3, 12, 2, 19, 22, 1, 24, 9, 18, 8, 13, 4, 7, 11, 21, 23, 5, 10, 6, 14].
+
+Overall, both ACO and PSO provide valid solutions, but they may represent different trade-offs in optimization based on their respective mechanisms.
 
  
 

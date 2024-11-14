@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1731600931.56632 -1
-  "main.bcf" 1731600931 108158 b3046c11496c1952b47755ea1cfc8ddd "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1731607890.7107 -1
+  "main.bcf" 1731607890 108158 b3046c11496c1952b47755ea1cfc8ddd "pdflatex"
   "references.bib" 1730758780 642 29b7e0d9f1d6fc7d3df6d672fbe2fb57 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731600928.07727 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731600931.56714 2
+["pdflatex"] 1731607887.58181 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731607890.7115 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731579684 82347 0a47e4f8d01f5d55a2e12fd68cc2a137 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1730723645 11548 2df048ecc95109d9330adc4572012520 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730724021 11986008 0a4ee49a35ac8f83aec26bc56f6e903f ""
@@ -29,6 +29,7 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm" 1463869852 1360 76c648952c3cfb458d3ca1d9dde7e9bf ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
@@ -44,6 +45,7 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247596666 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1247596667 31099 342ef5a582aacbd3346f3cf4579679fa ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463869852 173219 890b1c7806f4fd8da5584bf52ad6c3d7 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -150,14 +152,14 @@
   "figures/data_used_to_calculate_Total_Fuel_Consumption_For_each_road_segment.PNG" 1730827746 34059 06e3c0fd50187093a6662802e341c197 ""
   "figures/peak_huours.PNG" 1730970265 13997 38a2e2ce1261ce4e38135f604f8a0110 ""
   "figures/trafic_volume_count.PNG" 1730785811 35444 7c76151af503356b4c3362f143363a1e ""
-  "main.aux" 1731600930 8558 b1818f1ca008eac8cd342f1c21f0e7a3 "pdflatex"
+  "main.aux" 1731607890 8558 ba8f5a52540441072247efd5bd0d1745 "pdflatex"
   "main.bbl" 1731045871 1707 db6cf6e1999014dff55a479a95104667 "biber main"
-  "main.out" 1731600931 6081 ab0a790fd2f53b113f2566d73f0102ce "pdflatex"
+  "main.out" 1731607890 6081 ab0a790fd2f53b113f2566d73f0102ce "pdflatex"
   "main.tex" 1731579665 1598 0686461f4652d5cf5421a44bc3129aa9 ""
-  "sections/references.tex" 1731600834 2843 bd3eb873e0e7fde44be2995792f2e60d ""
+  "sections/references.tex" 1731607882 3349 239e5dc68fefb48fa57842ab00ac05fb ""
   "sections/task-1.tex" 1731600913 18037 97e48dd2c726fc52efabff3d263858a7 ""
   "sections/task-2.tex" 1731579623 393 672c63d870179295e1386b03645c507b ""
-  "sections/task-3.tex" 1731600923 7415 97eb4f6e2a5391f31ba1073d1df4f28e ""
+  "sections/task-3.tex" 1731607646 11624 03feaa69941c8181553d597d600b1b86 ""
   "sections/task-4.tex" 1731579642 132 460bf9ce9c226485a6929f4d397010c9 ""
   (generated)
   "main.aux"
