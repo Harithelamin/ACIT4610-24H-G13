@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1731579708.82731 -1
-  "main.bcf" 1731579708 108158 b3046c11496c1952b47755ea1cfc8ddd "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1731600931.56632 -1
+  "main.bcf" 1731600931 108158 b3046c11496c1952b47755ea1cfc8ddd "pdflatex"
   "references.bib" 1730758780 642 29b7e0d9f1d6fc7d3df6d672fbe2fb57 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731579705.34579 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731579708.82823 2
+["pdflatex"] 1731600928.07727 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731600931.56714 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731579684 82347 0a47e4f8d01f5d55a2e12fd68cc2a137 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1730723645 11548 2df048ecc95109d9330adc4572012520 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730724021 11986008 0a4ee49a35ac8f83aec26bc56f6e903f ""
@@ -134,6 +134,7 @@
   "figures/Aco_Results.PNG" 1731509673 272547 b77806e01032a74c6e62d4b5c4fb7aeb ""
   "figures/Best_Score_Over_Generation.PNG" 1731577600 81592 cfcff9b4a602072a460c951d4194f17f ""
   "figures/Citye_Routes_And_Time_Windows.PNG" 1731474486 145190 6bbea474420d9dbf9815d63cb1064f4e ""
+  "figures/Customer_Time_Window.PNG" 1731595907 112898 d4ed00725a3e6853442d70f81a76b6c7 ""
   "figures/Fuel_consumption_per_time_interval.PNG" 1730828411 68331 48913ec180f36ee9a3fcc0da936f61c1 ""
   "figures/List_of_hourly_columns.PNG" 1730969011 30254 70656789c3fc6b34ae017083995f4bb7 ""
   "figures/Optimizing_light_duration.PNG" 1731576623 76250 d25600bbf64db58e9d61516388e04872 ""
@@ -149,14 +150,14 @@
   "figures/data_used_to_calculate_Total_Fuel_Consumption_For_each_road_segment.PNG" 1730827746 34059 06e3c0fd50187093a6662802e341c197 ""
   "figures/peak_huours.PNG" 1730970265 13997 38a2e2ce1261ce4e38135f604f8a0110 ""
   "figures/trafic_volume_count.PNG" 1730785811 35444 7c76151af503356b4c3362f143363a1e ""
-  "main.aux" 1731579708 8510 b67052a8aed011ee0c787d211bafcb4b "pdflatex"
+  "main.aux" 1731600930 8558 b1818f1ca008eac8cd342f1c21f0e7a3 "pdflatex"
   "main.bbl" 1731045871 1707 db6cf6e1999014dff55a479a95104667 "biber main"
-  "main.out" 1731579708 6694 72962137eeecf3e02f112f18973224c6 "pdflatex"
+  "main.out" 1731600931 6081 ab0a790fd2f53b113f2566d73f0102ce "pdflatex"
   "main.tex" 1731579665 1598 0686461f4652d5cf5421a44bc3129aa9 ""
-  "sections/references.tex" 1731579598 2463 4a3b167c7c8721def8bf6cc7064ee25b ""
-  "sections/task-1.tex" 1731579700 17273 9462c63c79f587724d1a94e13dff8b7a ""
+  "sections/references.tex" 1731600834 2843 bd3eb873e0e7fde44be2995792f2e60d ""
+  "sections/task-1.tex" 1731600913 18037 97e48dd2c726fc52efabff3d263858a7 ""
   "sections/task-2.tex" 1731579623 393 672c63d870179295e1386b03645c507b ""
-  "sections/task-3.tex" 1731579632 2360 a420aae3b5e2381ebdec7ec0f3968563 ""
+  "sections/task-3.tex" 1731600923 7415 97eb4f6e2a5391f31ba1073d1df4f28e ""
   "sections/task-4.tex" 1731579642 132 460bf9ce9c226485a6929f4d397010c9 ""
   (generated)
   "main.aux"

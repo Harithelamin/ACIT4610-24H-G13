@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.4)  14 NOV 2024 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.4)  14 NOV 2024 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1216,88 +1216,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--275
 
 
 [11 <./figures/Optimizing_light_duration.PNG>]
-<figures/TTT, and FC.PNG, id=119, 648.4225pt x 321.70187pt>
-File: figures/TTT, and FC.PNG Graphic file (type png)
-<use figures/TTT, and FC.PNG>
-Package pdftex.def Info: figures/TTT, and FC.PNG  used on input line 308.
-(pdftex.def)             Requested size: 345.0pt x 171.16385pt.
-
 
 [12]
-<figures/TTT.PNG, id=132, 437.635pt x 239.89626pt>
+<figures/TTT, and FC.PNG, id=129, 648.4225pt x 321.70187pt>
+File: figures/TTT, and FC.PNG Graphic file (type png)
+<use figures/TTT, and FC.PNG>
+Package pdftex.def Info: figures/TTT, and FC.PNG  used on input line 312.
+(pdftex.def)             Requested size: 345.0pt x 171.16385pt.
+<figures/TTT.PNG, id=130, 437.635pt x 239.89626pt>
 File: figures/TTT.PNG Graphic file (type png)
 <use figures/TTT.PNG>
-Package pdftex.def Info: figures/TTT.PNG  used on input line 314.
+Package pdftex.def Info: figures/TTT.PNG  used on input line 318.
 (pdftex.def)             Requested size: 345.0pt x 189.12062pt.
-<figures/Best_Score_Over_Generation.PNG, id=133, 640.3925pt x 346.79562pt>
+<figures/Best_Score_Over_Generation.PNG, id=131, 640.3925pt x 346.79562pt>
 File: figures/Best_Score_Over_Generation.PNG Graphic file (type png)
 <use figures/Best_Score_Over_Generation.PNG>
-Package pdftex.def Info: figures/Best_Score_Over_Generation.PNG  used on input line 320.
+Package pdftex.def Info: figures/Best_Score_Over_Generation.PNG  used on input line 324.
 (pdftex.def)             Requested size: 345.0pt x 186.83292pt.
 ) (sections/task-2.tex
 Overfull \hbox (12.20627pt too wide) in paragraph at lines 1--1
 \OT1/cmr/bx/n/14.4 gram-ming and Evo-lu-tion-ary Strate-gies for Port-
  []
 
+) (sections/task-3.tex
 
+[13 <./figures/TTT, and FC.PNG>]
 
-[13 <./figures/TTT, and FC.PNG> <./figures/TTT.PNG>]) (sections/task-3.tex
+[14 <./figures/TTT.PNG> <./figures/Best_Score_Over_Generation.PNG>]
 Overfull \hbox (11.62459pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/14.4 Solving the Ve-hi-cle Rout-ing Prob-lem with Time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--8
+Underfull \hbox (badness 10000) in paragraph at lines 2--14
 
  []
 
 
 
-[14 <./figures/Best_Score_Over_Generation.PNG>]
-<figures/Citye_Routes_And_Time_Windows.PNG, id=153, 546.54187pt x 365.365pt>
+[15]
+<figures/Customer_Time_Window.PNG, id=158, 587.69562pt x 349.305pt>
+File: figures/Customer_Time_Window.PNG Graphic file (type png)
+<use figures/Customer_Time_Window.PNG>
+Package pdftex.def Info: figures/Customer_Time_Window.PNG  used on input line 62.
+(pdftex.def)             Requested size: 276.00105pt x 164.04544pt.
+
+
+[16 <./figures/Customer_Time_Window.PNG>]
+<figures/Citye_Routes_And_Time_Windows.PNG, id=167, 546.54187pt x 365.365pt>
 File: figures/Citye_Routes_And_Time_Windows.PNG Graphic file (type png)
 <use figures/Citye_Routes_And_Time_Windows.PNG>
-Package pdftex.def Info: figures/Citye_Routes_And_Time_Windows.PNG  used on input line 27.
-(pdftex.def)             Requested size: 345.0pt x 230.63274pt.
-<figures/Aco_Results.PNG, id=154, 515.9275pt x 413.545pt>
+Package pdftex.def Info: figures/Citye_Routes_And_Time_Windows.PNG  used on input line 85.
+(pdftex.def)             Requested size: 276.00105pt x 184.51065pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--118
+
+ []
+
+
+
+[17 <./figures/Citye_Routes_And_Time_Windows.PNG>]
+Overfull \hbox (21.65819pt too wide) in paragraph at lines 149--149
+[]\OT1/cmr/bx/n/12 Implement Ant Colony Op-ti-miza-tion (ACO) for VRPTW: 
+ []
+
+
+
+[18]
+<figures/Aco_Results.PNG, id=182, 515.9275pt x 413.545pt>
 File: figures/Aco_Results.PNG Graphic file (type png)
 <use figures/Aco_Results.PNG>
-Package pdftex.def Info: figures/Aco_Results.PNG  used on input line 43.
+Package pdftex.def Info: figures/Aco_Results.PNG  used on input line 157.
 (pdftex.def)             Requested size: 345.0pt x 276.54364pt.
-
-
-[15 <./figures/Citye_Routes_And_Time_Windows.PNG>]
-<figures/Pso_Results.PNG, id=162, 513.92pt x 411.03563pt>
+<figures/Pso_Results.PNG, id=183, 513.92pt x 411.03563pt>
 File: figures/Pso_Results.PNG Graphic file (type png)
 <use figures/Pso_Results.PNG>
-Package pdftex.def Info: figures/Pso_Results.PNG  used on input line 49.
+Package pdftex.def Info: figures/Pso_Results.PNG  used on input line 164.
 (pdftex.def)             Requested size: 345.0pt x 275.9381pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (sections/task-4.tex) (sections/references.tex
-
-[16 <./figures/Aco_Results.PNG>]
-Overfull \hbox (43.66754pt too wide) in paragraph at lines 2--29
+[19 <./figures/Aco_Results.PNG>]) (sections/task-4.tex) (sections/references.tex
+Overfull \hbox (43.66754pt too wide) in paragraph at lines 2--32
 \OT1/cmr/m/n/10 https://data.cityofnewyork.us/Transportation/Automated-Traffic-Volume-Counts/7ym2-
  []
 
 
-Overfull \hbox (14.08414pt too wide) in paragraph at lines 2--29
+Overfull \hbox (14.08414pt too wide) in paragraph at lines 2--32
 \OT1/cmr/m/n/10 https://data.cityofnewyork.us/Transportation/DOT-Traffic-Speeds-NBE/i4gi-tjb9
  []
 
 
-Overfull \hbox (22.10277pt too wide) in paragraph at lines 2--29
+Overfull \hbox (22.10277pt too wide) in paragraph at lines 2--32
 \OT1/cmr/m/n/10 fic Sys-tems Jour-nal, vol. 56, no. 1, 2024, pp. 123-145. DOI: 10.1234/tsj.2024.0123456
  []
 
 
 
-[17 <./figures/Pso_Results.PNG>])
+[20 <./figures/Pso_Results.PNG>])
 
-[18] (main.aux)
+[21] (main.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-10-09>
@@ -1316,7 +1343,7 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  72962137EEECF3E02F112F18973224C6;6694.
+(rerunfilecheck)             After:  AB0A790FD2F53B113F2566D73F0102CE;6081.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1327,20 +1354,20 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19902 strings out of 473701
- 346719 string characters out of 5718941
+ 19918 strings out of 473701
+ 347116 string characters out of 5718941
  1151137 words of memory out of 5000000
- 42661 multiletter control sequences out of 15000+600000
+ 42673 multiletter control sequences out of 15000+600000
  564878 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,7n,79p,749b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 65i,10n,79p,749b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@knuth1984texbook} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (18 pages, 1392605 bytes).
+Output written on main.pdf (21 pages, 1510420 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -106,7 +106,7 @@ We calculated the total traffic for each hour and identified the maximum volume 
     \centering
     \includegraphics[width=1\linewidth]{figures/peak_huours.PNG}
     \caption{New York Peak Hours}
-    \label{fig:new_york_peak_hours}
+    \label{fig:New York Peak Hours}
 \end{figure}
 
 \textbf{B. Average speeds:}
@@ -285,10 +285,14 @@ Where:
     \item \( C_{\text{speed}} \) = Constant factor for speed-related fuel consumption (e.g., 0.05)
 \end{itemize}
 \subsection{Implement the MOEA using Genetic Algorithm}
+We designed an initial population of potential solutions (chromosomes) representing different traffic management strategies. To do this, we defined the structure of each individual (chromosome) and then initialized the population by randomly generating individuals within the specified constraints. Each individual consisted of three components: speed, green light duration, and red light duration.
 \subsubsection{Initialization}
-We started by implementing a genetic algorithm, initializing a population of individuals, where each individual represents a potential solution to the problem. Each individual is represented as a vector [speed, green light duration, red light duration], representing the vehicle speed and the traffic light durations.
+We started by implementing a genetic algorithm, initializing a population of individuals, where each individual represents a potential solution to the problem. Each individual is represented as a vector [speed, green light duration, red light duration], representing the vehicle speed and the traffic light durations. 
 \newline
-The population has been initialized regarding our decision variable has been defined above.
+Chromosome Representation: Each individual is a 3-dimensional vector:
+\newline A. The first element represents speed within the range [30, 120] km/h.
+\newline B. The second element represents green light duration within the range [10, 60] seconds.
+\newline C. The third element represents red light duration within the range [10, 60] seconds. However, population , and other decision variable has been initialized regarding our decision variable has been defined above.
 \subsubsection{Objective Function}
 The algorithm uses two objective functions, Total Travel Time (TTT), and Fuel Consumption (FC). These two objectives are calculated for each individual in the population, and the goal is to minimize both of them.
 \subsubsection{Fitness Evaluation}
@@ -321,11 +325,3 @@ Each individual in the population is evaluated using the objective functions. Wh
     \caption{The best score over generation}
     \label{fig:Best Score Over Generation} 
 \end{figure}
-
-
-
-
-
-
-
-
