@@ -61,6 +61,7 @@ implement both ACO and PSO to solve the Vehicle Routing Problem with Time Window
 (http://web.cba.neu.edu/~msolomon/c101.htm)
 
 # Results
+![alt text](Latex/figures/Customer_Time_Window.PNG)
 
 ![alt text](Latex/figures/Citye_Routes_And_Time_Windows.PNG)
 
