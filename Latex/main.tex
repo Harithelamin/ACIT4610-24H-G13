@@ -11,6 +11,7 @@
 \usepackage{graphicx}
 \usepackage{fontawesome}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{pdfpages}
 
 % Add bibliography resources
 \addbibresource{references.bib}
@@ -30,18 +31,16 @@
 The code used in this study is publicly available on GitHub at the following URL: 
 \faGithub{}
 \url{https://github.com/Harithelamin/ACIT4610-24H-G13}.
-
-% Include the introduction
 \input{sections/task-1}
 
-% Include the results
-\input{sections/task-2}
+% Include the introduction
 
+% Include the results
+\includepdf[pages=-]{.\task_2.pdf}
 % Include the results
 \input{sections/task-3}
 
 % Include the results
-\input{sections/task-4}
 \input{sections/references}
 %\printbibliography
 
