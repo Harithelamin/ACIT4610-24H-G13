@@ -307,21 +307,25 @@ Each individual in the population is evaluated using the objective functions. Wh
  After the selection, crossover, and mutation steps, the offspring are added back to the population. The next generation of individuals is created by replacing the previous generation[14].
  \subsubsection{Termination and Pareto Front}
  The genetic algorithm iterates over a fixed number of generations defined in decition variable above. At each generation, the Pareto-optimal set of solutions is refined. the Pareto front is the set of individuals that represent trade-offs between the two objectives (TTT and FC)[14].
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{figures/TTT, and FC.PNG}
-    \caption{TTT, and FC Analyse}
-    \label{fig:TTT, and FC Analyse}
-\end{figure}
-\begin{figure}[htbp] % Flexible placement
+\begin{figure}[H]  % Exact placement
     \centering
     \includegraphics[width=\textwidth]{figures/TTT.PNG}
-    \caption{TTT}
-    \label{fig:Total Travel Time}
+    \caption{Total Travel Time (TTT)}
+    \label{fig:Total_Travel_Time}
 \end{figure}
-\begin{figure}[htbp] % Flexible placement for the second figure
+
+\clearpage  % Force next figure to be placed immediately
+\begin{figure}[H]  % Exact placement
     \centering
     \includegraphics[width=\textwidth]{figures/Best_Score_Over_Generation.PNG}
-    \caption{The best score over generation}
-    \label{fig:Best Score Over Generation} 
+    \caption{The Best Score Over Generations}
+    \label{fig:Best_Score_Over_Generation}
 \end{figure}
+
+
+
+
+
+
+
+

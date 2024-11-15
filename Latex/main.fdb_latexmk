@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1731671020.11795 "main.bcf" "main.bbl" "main" 1731671074.06122 2
-  "main.bcf" 0 -1 0 "pdflatex"
+["biber main"] 1731671020.11795 "main.bcf" "main.bbl" "main" 1731672144.2644 2
+  "main.bcf" 1731672143 108087 51f8655dfc7ed08e0d1265dcfd1a4da1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731671015.96143 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731671019.43029 2
+["pdflatex"] 1731672141.08634 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731672144.26512 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731667933 82347 0a47e4f8d01f5d55a2e12fd68cc2a137 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1730723645 11548 2df048ecc95109d9330adc4572012520 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730724021 11986008 0a4ee49a35ac8f83aec26bc56f6e903f ""
@@ -139,7 +139,7 @@
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-math.sty" 1731670935 1474 b42cfbe849cb22ed1c0632800327884f ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Lenovo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" 1731671015 1521 d0361615bd552c4dd307eee3b252ce08 ""
+  "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" 1731671067 1521 d0361615bd552c4dd307eee3b252ce08 ""
   "figures/Aco_Results.PNG" 1731509673 272547 b77806e01032a74c6e62d4b5c4fb7aeb ""
   "figures/Best_Score_Over_Generation.PNG" 1731577600 81592 cfcff9b4a602072a460c951d4194f17f ""
   "figures/Citye_Routes_And_Time_Windows.PNG" 1731474486 145190 6bbea474420d9dbf9815d63cb1064f4e ""
@@ -151,7 +151,6 @@
   "figures/Pso_Results.PNG" 1731517740 184381 e0cf43b783b478081f2d9d78f98cc42a ""
   "figures/Q-Table_Evaluate.PNG" 1731664664 38355 334a3c1f6a5d4c7c145e6c8caedeb8a2 ""
   "figures/Q-Table_HeatMap.PNG" 1731664704 43676 469c33abc1db15cbed73d659c76fc72a ""
-  "figures/TTT, and FC.PNG" 1731576360 93908 c90da5e7e7d8fa93d20a646192a6ebe9 ""
   "figures/TTT.PNG" 1730751349 45289 1848b2e8357e65d70978fb35f894fe9f ""
   "figures/Taxi_Environment.PNG" 1731625719 25731 1ddc8cb6d93586b32ff580faff4584f1 ""
   "figures/Taxi_moves.PNG" 1731662284 9567 25790c96e7d9e3552d38b892e2739930 ""
@@ -164,12 +163,12 @@
   "figures/data_used_to_calculate_Total_Fuel_Consumption_For_each_road_segment.PNG" 1730827746 34059 06e3c0fd50187093a6662802e341c197 ""
   "figures/peak_huours.PNG" 1730970265 13997 38a2e2ce1261ce4e38135f604f8a0110 ""
   "figures/trafic_volume_count.PNG" 1730785811 35444 7c76151af503356b4c3362f143363a1e ""
-  "main.aux" 0 -1 0 "pdflatex"
+  "main.aux" 1731672143 9633 e86fba690a78d104ae49b14dd9274246 "pdflatex"
   "main.bbl" 1731671073 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1731671015 1521 d0361615bd552c4dd307eee3b252ce08 ""
+  "main.out" 1731672143 6303 fec0ac88aa1894d5eb8ca9b6f801f7f0 "pdflatex"
+  "main.tex" 1731671067 1521 d0361615bd552c4dd307eee3b252ce08 ""
   "sections/references.tex" 1731665884 3785 999262dfbdc3d17418ba0220fe5f7de7 ""
-  "sections/task-1.tex" 1731666513 18039 85cadddd766dd1849db4e9ff0dd1f683 ""
+  "sections/task-1.tex" 1731672136 17916 3b65c01254c5e44b40dbf25849ebd310 ""
   "sections/task-3.tex" 1731607646 11624 03feaa69941c8181553d597d600b1b86 ""
   "sections/task-4.tex" 1731665852 5815 54e2745cffd176ade32b999ca32ea1af ""
   (generated)
