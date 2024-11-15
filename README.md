@@ -79,15 +79,33 @@ On the other hand, the best solution (path) obtained by the PSO algorithm is:
 
 Overall, both ACO and PSO provide valid solutions, but they may represent different trade-offs in optimization based on their respective mechanisms.
 
-# Task 4
-Taxi-v3 RL DQN, suitable small discrete state/action space.
 
-Taxi location, passenger location, destination. Episode ends on passenger droped-off or time_limit.
-Length of each episode is 200. Actions: pick-up, drop-off; movement north, south, east and west.
+# Task 4. Solving a Real-World Problem Using Reinforcement Learning.
 
-Transition probability, p, action_mask. Reward on correct drop-off. Penalty on delays and wrong actions.
--1 per step unless a reward.
--10 on bad “pickup” or “drop-off”.
-+20 delivering the passenger.
+ Is to apply reinforcement learning techniques to solve a real-world problem. Students used a publicly available dataset to train an RL agent, evaluated its performance, and optimized it to achieve the best possible outcome.
+
+# Data source: 
+The exercise will utilize the Taxi-v3 environment available in the OpenAI Gym repository. 
+This environment simulates a simplified grid world where an agent must pick up and drop off 
+passengers at the correct locations while avoiding walls and other obstacles. 
+• Link to Dataset/Environment: Taxi-v3 on OpenAI Gym.
+
+# Environment Description: 
+• Grid Size: 5x5 grid. 
+• Taxi: The agent (taxi) starts at a random location. 
+• Passenger: A passenger is located at one of the grid cells and has a target destination. 
+• Actions: The taxi can move North, South, East, West, Pick-up, or Drop-off. 
+• Rewards: The taxi receives a reward for successfully dropping off the passenger and a 
+penalty for every wrong action or delay. 
+
+![alt text](Latex/figures/Taxi_Environment.PNG)
+![alt text](Latex/figures/Taxi_moves.PNG)
+![alt text](Latex/figures/Best_Episode_After_training.PNG)
+![alt text](Latex/figures/Q-Table_Evaluate.PNG)
+![alt text](Latex/figures/Q-Table_HeatMap.PNG)
+![alt text](Latex/figures/Cumulative_Rewards_Over_Time_During_Training.PNG)
+
+
+
 
 
