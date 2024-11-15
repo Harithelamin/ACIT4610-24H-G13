@@ -1,11 +1,12 @@
 # Fdb version 4
-["biber main"] 1731671020.11795 "main.bcf" "main.bbl" "main" 1731672144.2644 2
-  "main.bcf" 1731672143 108087 51f8655dfc7ed08e0d1265dcfd1a4da1 "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 0 -1
+  "main.bcf" 1731672219 108087 51f8655dfc7ed08e0d1265dcfd1a4da1 "pdflatex"
+  "references.bib" 1730758780 642 29b7e0d9f1d6fc7d3df6d672fbe2fb57 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1731672141.08634 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731672144.26512 2
+["pdflatex"] 1731672216.15076 "c:/Users/Lenovo/Documents/GitHub/ACIT4610-24H-G13/Latex/main.tex" "main.pdf" "main" 1731672219.86333 2
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731667933 82347 0a47e4f8d01f5d55a2e12fd68cc2a137 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1730723645 11548 2df048ecc95109d9330adc4572012520 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730724021 11986008 0a4ee49a35ac8f83aec26bc56f6e903f ""
@@ -163,12 +164,12 @@
   "figures/data_used_to_calculate_Total_Fuel_Consumption_For_each_road_segment.PNG" 1730827746 34059 06e3c0fd50187093a6662802e341c197 ""
   "figures/peak_huours.PNG" 1730970265 13997 38a2e2ce1261ce4e38135f604f8a0110 ""
   "figures/trafic_volume_count.PNG" 1730785811 35444 7c76151af503356b4c3362f143363a1e ""
-  "main.aux" 1731672143 9633 e86fba690a78d104ae49b14dd9274246 "pdflatex"
+  "main.aux" 1731672219 9633 e86fba690a78d104ae49b14dd9274246 "pdflatex"
   "main.bbl" 1731671073 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
-  "main.out" 1731672143 6303 fec0ac88aa1894d5eb8ca9b6f801f7f0 "pdflatex"
+  "main.out" 1731672219 6303 fec0ac88aa1894d5eb8ca9b6f801f7f0 "pdflatex"
   "main.tex" 1731671067 1521 d0361615bd552c4dd307eee3b252ce08 ""
   "sections/references.tex" 1731665884 3785 999262dfbdc3d17418ba0220fe5f7de7 ""
-  "sections/task-1.tex" 1731672136 17916 3b65c01254c5e44b40dbf25849ebd310 ""
+  "sections/task-1.tex" 1731672214 17916 3b65c01254c5e44b40dbf25849ebd310 ""
   "sections/task-3.tex" 1731607646 11624 03feaa69941c8181553d597d600b1b86 ""
   "sections/task-4.tex" 1731665852 5815 54e2745cffd176ade32b999ca32ea1af ""
   (generated)
