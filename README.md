@@ -40,13 +40,39 @@ tjb9/about_data)
 ![alt text](Latex/figures/Best_Score_Over_Generation.PNG)
 
 # Task 2
-To find the code, you have to navigate to the folder task-2, and inside that one locate stock.py. The file task-2 in the main folder is empty and the task-2 file in the task-2 folder is obsolete, so navigate to stock.py
+Evolutionary Portfolio Optimization
+Overview
+This project explores six versions of evolutionary algorithms to optimize stock portfolios, focusing on maximizing the Sharpe ratio. It evaluates 20 stocks (2018–2022) using advanced methodologies like Evolutionary Programming (EP) and Evolutionary Strategies (ES).
 
+Methodology
+Version 1 & 2: Evolutionary Programming (EP)
 
-task-2\task-2.py(obsolete):
- This Python code snippet uses the yfinance library to download historical stock price data and compute the monthly returns for a list of specified stock tickers. It begins by importing the necessary libraries: yfinance for financial data retrieval and pandas for data manipulation. A list of stock tickers is defined, representing major technology and consumer companies. The code also establishes a date range for downloading the historical stock data, spanning from January 1, 2020, to January 1, 2023. This setup prepares the environment to analyze the stock performance over a defined period.
- The main functionality is encapsulated in a loop that iterates over each stock ticker in the list. Within the loop, the yf.download() function fetches the historical daily stock prices from Yahoo Finance. The daily stock prices are then resampled to calculate monthly returns, which are computed by using the percentage change of the adjusted closing prices. The monthly returns are stored in a new DataFrame, which is constructed iteratively. If the monthly_returns_combined DataFrame is empty, it initializes it with the returns of the first ticker. For subsequent tickers, it joins their monthly returns to the existing DataFrame, ensuring that all stock returns are consolidated into a single DataFrame for further analysis.
- After calculating the monthly returns for all tickers, the code drops any rows containing missing values that might have resulted from stocks that did not have data for certain months. It then computes the covariance matrix of the monthly returns using the cov() method from pandas, which reveals the relationship between the returns of the different stocks. Finally, the covariance matrix is printed to the console, providing insights into how the stock returns move in relation to each other, which is particularly useful for portfolio optimization and risk assessment in financial analyses.
+V1: Basic mutation-based algorithm.
+V2: Advanced with self-adaptive mutation, elitism, and fitness-proportional selection.
+Version 3 & 4: Evolutionary Strategies (ES)
+
+V3: Basic Gaussian mutation and top-candidate selection.
+V4: Advanced with self-adaptive mutation rates and recombination.
+Version 5 & 6: ES with μ + λ and μ, λ
+
+V5: Combines parents (μ) and offspring (λ) for selection.
+V6: Selects only the top μ offspring for the next generation.
+Results
+Best Performers: Versions 2, 3, and 4 showed high stability, smooth convergence, and consistent improvement.
+Weaker Performers: Versions 5 and 6 had higher variability and less reliable results.
+Future Improvements
+Fine-tuning parameters (e.g., mutation rates, population size).
+Adding constraints (e.g., asset weights, sector limits).
+Expanding datasets (e.g., international stocks, different periods).
+Combining EP/ES with other algorithms (e.g., genetic algorithms, particle swarm optimization).
+Exploring alternative metrics (e.g., Sortino ratio, CVaR).
+Figures
+The report includes:
+
+Covariance matrix.
+Average and cumulative returns.
+Algorithm performance metrics (Consistency, Convergence, Expected Return).
+
 # Task 3. Solving the Vehicle Routing Problem with Time Windows (VRPTW) Using Ant Colony Optimization (ACO) and Particle Swarm Optimization (PSO) 
 
  This task focuses on optimizing the delivery routes for a fleet of vehicles using two nature
